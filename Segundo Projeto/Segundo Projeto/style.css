@@ -1,0 +1,41 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+ }
+
+img{
+    z-index: -1;
+}
+
+section{
+    height: fit-content;
+}
+
+.Background-pag1{
+    max-width: 100%;
+    height: auto;
+}
+
+.conteiner-1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: fit-content;
+}
+
+.combo{
+    max-width: 80%;
+    height: auto;
+}
+
+.tit-pag1{
+    position: a;
+}
+
+p{
+    position: absolute;
+}
