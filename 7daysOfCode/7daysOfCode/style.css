@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+
+:root{
+    --text-color: #667085;
+    --main-color: #8E2424;
+        
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0.5rem;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6rem;
+    justify-content: center;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 0.9rem;
+}
+
+#logo{
+    justify-content: flex-start;
+    width: 80%;
+}
+
+.navBotoes{
+    display: flex;
+    margin-top: 0.3rem;
+    justify-content: center;
+    margin-left: 7rem;
+    gap: 3.4rem;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.3rem;
+    margin-left: 13rem;
+    gap: 3.4rem;
+}
+
+#login{
+    text-decoration: none;
+    color:var(--text-color);
+    font-weight: 600;
+}
+
+#Ecadastro{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#cadastro :hover{
+    color: white;
+}
+
+#cadastro{
+    background-color: var(--main-color);
+    padding: 5px 15px;
+    text-align: center;
+    margin-top: -0.3rem;
+    border-radius: 5px;
+}
+
+#botoes:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#login:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#botoes{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.container-article{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: center;
+    margin-top: 6rem;
+    width: 100%;
+}
+
+.sobre{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#articleP{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+#tit{
+    font-size: 38px;
+    font-weight: bold;
+}
