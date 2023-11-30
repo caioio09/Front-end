@@ -1,42 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
 
 :root{
-    font-family: 'Inter', sans-serif;
+    --text-color: #667085;
+    --main-color: #8E2424;
+        
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+nav{
+    width: 100%;
 }
 
 .navBar{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    height: 3rem;
     padding: 0.5rem;
-    font-family: var(--fonteNav);
+    width: 100%;
 }
 
-.botoes{
+.container{
     display: flex;
-    flex-direction: row;
-    margin-left: 6rem;
     justify-content: center;
-    font-size: 10px;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.8rem;
+    font-size: 25px;
+    margin-left: 9rem;
 }
 
 #logo{
-    justify-content: flex-start;
-    width: 80%;
+    width: 160%;
 }
 
 .navBotoes{
     display: flex;
     margin-top: 0.3rem;
     justify-content: center;
-    margin-left: 5rem;
+    margin-left: 18rem;
     gap: 3.4rem;
 }
 
@@ -44,43 +50,127 @@
     display: flex;
     justify-content: flex-end;
     margin-top: 0.3rem;
-    margin-left: 18rem;
+    margin-left: 40rem;
     gap: 3.4rem;
 }
 
 #login{
     text-decoration: none;
-    color:#667085;
+    color:var(--text-color);
+    font-weight: 600;
 }
 
 #Ecadastro{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    width: 100%;
 }
 
-#cadastro :hover{
-    color: white;
-}
 
 #cadastro{
-    background-color: #8E2424;
+    background-color: var(--main-color);
     padding: 5px 15px;
     text-align: center;
     margin-top: -0.3rem;
     border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
 }
 
 #botoes:hover{
-    background-color: rgb(255, 255, 255);
-    color: black;
+    background-color: var(--main-color);
+    color: rgb(252, 252, 252);
+    border-radius: 5px;
+    padding: 9px;
+    box-shadow: 2px 2px 5px 1px var(--text-color);
 }
 
 #login:hover{
     background-color: rgb(255, 255, 255);
     color: black;
+    border-radius: 5px;
 }
 
 #botoes{
     text-decoration: none;
-    color: #667085;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.container-article{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: center;
+    margin-top: 6rem;
+    width: 100%;
+}
+
+.sobre{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 23px;
+}
+
+#articleP{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+#tit{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.metricas{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 2rem;
+}
+
+.container-metrica{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+    margin-top: 10rem;
+    margin-left: 12rem;
+}
+
+.metrica1{
+    width: 50%;
+
+}
+
+.metrica2{
+    width: 50%;
+}
+
+.metrica3{
+    width: 50%;
+}
+
+.metrica4{
+    width: 50%;
+}
+
+.metrica-tit{
+    font-size: 78px;
+    line-height: 100px;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.metrica-subtit{
+    font-size: 28px;
+    line-height: 70px;
+}
+
+.metrica-p{
+    font-size: 18px;
+    color: var(--text-color);
 }
